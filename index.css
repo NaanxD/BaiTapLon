@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+body{
+    width: 2435px;
+    height: 1303px;
+    margin: 100px;
+    
+}
+
+#showScore{
+    position:absolute;
+    left: 100px;
+}
+#show2Player{
+    display: flex;
+    width: 33.4%;
+    margin: 5px auto;
+    background-color: #ffe79e;
+    border: 2px solid #ffe79e;
+    border-radius: 10px
+}
+
+#showStatusPlayer1, #showStatusPlayer2 {
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    border: 2px solid #ffe79e;
+    border-radius: 10px;
+    background-color: white;
+}
+#showStatusPlayer1{
+    color:#2C8DFF;}
+#showStatusPlayer2 {
+    color:#FF4F4F;}
+
+#p1Score{
+    height: 287px;
+	width: 280px;
+    border-radius: 50%; 
+    text-align: center;
+    font-size:150px;
+    color: #2C8DFF;
+    padding: 43px;
+    border: 15px solid #2C8DFF;
+    
+}
+
+#p2Score{
+    height: 287px;
+	width: 280px;
+    border-radius: 50%;  
+    text-align: center;
+    font-size: 150px;
+    padding: 43px;
+    color: #FF4F4F;
+    border: 15px solid #FF4F4F;
+}
+
+
+#buttonBlock{
+    width: 1315px;
+    height: 1303px;
+}
+#buttonBlock button{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: #ffffff;
+    margin: 1%;    
+    border: none;
+}
+
+#buttonBlock button:hover{
+    cursor: pointer;
+}
+
+#buttonBlock{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin:  0 auto;
+    background-color: #ffe79e;
+    border: 5px solid #ffe79e;
+}
+
+#featureBtn{
+    display: flex;
+    width: 33.4%;
+    margin: 8px auto;
+}
+
+#playAgain{
+    
+    font-size: 30px;
+    color: white;
+    background-color: #0047b3;
+    width: 50%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+#playContinue{
+    font-size: 30px;
+    color: white;
+    background-color: #0047b3;
+    width: 50%;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+
+#playAgain:hover{
+    cursor: pointer;
+    background-color: #ffe79e;
+}
+
+#playContinue:hover{
+    cursor: pointer;
+    background-color: #ffe79e;
+}
+
+footer{
+    margin-top: 80px;
+    border-top: 3px solid black;
+    font-size: 30px;
+}
+
+footer h3{
+    text-align: center;}
+
+@media only screen and (max-width: 768px){
+    html,
+    body{
+    zoom:50%;
+    }
+}
